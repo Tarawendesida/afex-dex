@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "package_name": "COMREX Fund Characteristics",
+  "generated_on": "2026-03-23",
+  "status": "proposed_pre_launch",
+  "detail_level": "starter_profile",
+  "scope_definition": "54_sovereign_african_states_build",
+  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
+  "fund_identity": {
+    "fund_name": "COMREX Fund",
+    "short_name": "COMREX",
+    "full_name": "Comoros Raw Export Index Fund",
+    "benchmark_name": "Comoros Raw Export Index",
+    "benchmark_ticker": "COMREX",
+    "vehicle_stage": "concept_and_platform_profile",
+    "fund_status": "not_yet_constituted",
+    "target_domicile": "Comoros",
+    "iso3": "COM",
+    "base_currency": "KMF",
+    "regional_comparison_currency": "",
+    "continental_comparison_currency": "USD",
+    "asset_class": "commodity_export_economy_reference_fund",
+    "strategy_type": "rules_based_index_tracking",
+    "reference_region": "Comoros"
+  },
+  "fund_family": {
+    "family_code": "AFEX",
+    "subfamily_code": "EAEX",
+    "subfamily_name": "East Africa Export Index Family",
+    "family_role": "island_member"
+  },
+  "benchmark_methodology": {
+    "index_code": "COMREX",
+    "methodology_model": "island_export_model",
+    "methodology_status": "starter_profile_needs_country_trade_validation"
+  },
+  "candidate_constituent_universe": [
+    {"name": "Vanilla", "status": "candidate"},
+    {"name": "Cloves", "status": "candidate"},
+    {"name": "Ylang-Ylang", "status": "candidate"},
+    {"name": "Fish and Seafood", "status": "candidate"}
+  ],
+  "country_context": {
+    "subfamily_code": "EAEX",
+    "regional_links": ["Madagascar", "Mozambique", "Tanzania"],
+    "special_note": "Comoros should be modeled as a narrow island agro-export benchmark."
+  },
+  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
+  "regulatory_positioning": {
+    "generic_note": "Country-specific legal and securities review is required before launch.",
+    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
+  }
+}
