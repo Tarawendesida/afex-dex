@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "package_name": "LESEX Fund Characteristics",
+  "generated_on": "2026-03-23",
+  "status": "proposed_pre_launch",
+  "detail_level": "starter_profile",
+  "scope_definition": "54_sovereign_african_states_build",
+  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
+  "fund_identity": {
+    "fund_name": "LESEX Fund",
+    "short_name": "LESEX",
+    "full_name": "Lesotho Raw Export Index Fund",
+    "benchmark_name": "Lesotho Raw Export Index",
+    "benchmark_ticker": "LESEX",
+    "vehicle_stage": "concept_and_platform_profile",
+    "fund_status": "not_yet_constituted",
+    "target_domicile": "Lesotho",
+    "iso3": "LSO",
+    "base_currency": "LSL",
+    "regional_comparison_currency": "",
+    "continental_comparison_currency": "USD",
+    "asset_class": "commodity_export_economy_reference_fund",
+    "strategy_type": "rules_based_index_tracking",
+    "reference_region": "Lesotho"
+  },
+  "fund_family": {
+    "family_code": "AFEX",
+    "subfamily_code": "SAEX",
+    "subfamily_name": "Southern Africa Export Index Family",
+    "family_role": "small_minerals_member"
+  },
+  "benchmark_methodology": {
+    "index_code": "LESEX",
+    "methodology_model": "landlocked_corridor_model",
+    "methodology_status": "starter_profile_needs_country_trade_validation"
+  },
+  "candidate_constituent_universe": [
+    {"name": "Wool", "status": "candidate"},
+    {"name": "Mohair", "status": "candidate"},
+    {"name": "Diamonds", "status": "candidate"}
+  ],
+  "country_context": {
+    "subfamily_code": "SAEX",
+    "regional_links": ["South Africa"],
+    "special_note": "Lesotho should carry a small-market caution and focus on wool, mohair, and diamonds."
+  },
+  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
+  "regulatory_positioning": {
+    "generic_note": "Country-specific legal and securities review is required before launch.",
+    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
+  }
+}

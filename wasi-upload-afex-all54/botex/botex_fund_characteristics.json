@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "package_name": "BOTEX Fund Characteristics",
+  "generated_on": "2026-03-23",
+  "status": "proposed_pre_launch",
+  "detail_level": "starter_profile",
+  "scope_definition": "54_sovereign_african_states_build",
+  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
+  "fund_identity": {
+    "fund_name": "BOTEX Fund",
+    "short_name": "BOTEX",
+    "full_name": "Botswana Raw Export Index Fund",
+    "benchmark_name": "Botswana Raw Export Index",
+    "benchmark_ticker": "BOTEX",
+    "vehicle_stage": "concept_and_platform_profile",
+    "fund_status": "not_yet_constituted",
+    "target_domicile": "Botswana",
+    "iso3": "BWA",
+    "base_currency": "BWP",
+    "regional_comparison_currency": "",
+    "continental_comparison_currency": "USD",
+    "asset_class": "commodity_export_economy_reference_fund",
+    "strategy_type": "rules_based_index_tracking",
+    "reference_region": "Botswana"
+  },
+  "fund_family": {
+    "family_code": "AFEX",
+    "subfamily_code": "SAEX",
+    "subfamily_name": "Southern Africa Export Index Family",
+    "family_role": "diamonds_member"
+  },
+  "benchmark_methodology": {
+    "index_code": "BOTEX",
+    "methodology_model": "landlocked_corridor_model",
+    "methodology_status": "starter_profile_needs_country_trade_validation"
+  },
+  "candidate_constituent_universe": [
+    {"name": "Diamonds", "status": "candidate"},
+    {"name": "Copper", "status": "candidate"},
+    {"name": "Nickel", "status": "candidate"},
+    {"name": "Soda Ash", "status": "candidate"},
+    {"name": "Beef", "status": "candidate"}
+  ],
+  "country_context": {
+    "subfamily_code": "SAEX",
+    "regional_links": ["South Africa", "Namibia", "Zambia", "Zimbabwe"],
+    "special_note": "Botswana should be built around diamonds and selected mining exports with a landlocked corridor model."
+  },
+  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
+  "regulatory_positioning": {
+    "generic_note": "Country-specific legal and securities review is required before launch.",
+    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
+  }
+}

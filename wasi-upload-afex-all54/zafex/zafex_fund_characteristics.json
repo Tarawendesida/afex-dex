@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "package_name": "ZAFEX Fund Characteristics",
+  "generated_on": "2026-03-23",
+  "status": "proposed_pre_launch",
+  "detail_level": "starter_profile",
+  "scope_definition": "54_sovereign_african_states_build",
+  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
+  "fund_identity": {
+    "fund_name": "ZAFEX Fund",
+    "short_name": "ZAFEX",
+    "full_name": "South Africa Raw Export Index Fund",
+    "benchmark_name": "South Africa Raw Export Index",
+    "benchmark_ticker": "ZAFEX",
+    "vehicle_stage": "concept_and_platform_profile",
+    "fund_status": "not_yet_constituted",
+    "target_domicile": "South Africa",
+    "iso3": "ZAF",
+    "base_currency": "ZAR",
+    "regional_comparison_currency": "",
+    "continental_comparison_currency": "USD",
+    "asset_class": "commodity_export_economy_reference_fund",
+    "strategy_type": "rules_based_index_tracking",
+    "reference_region": "South Africa"
+  },
+  "fund_family": {
+    "family_code": "AFEX",
+    "subfamily_code": "SAEX",
+    "subfamily_name": "Southern Africa Export Index Family",
+    "family_role": "continental_anchor_member"
+  },
+  "benchmark_methodology": {
+    "index_code": "ZAFEX",
+    "methodology_model": "coastal_export_model",
+    "methodology_status": "starter_profile_needs_country_trade_validation"
+  },
+  "candidate_constituent_universe": [
+    {"name": "Gold", "status": "candidate"},
+    {"name": "Platinum Group Metals", "status": "candidate"},
+    {"name": "Coal", "status": "candidate"},
+    {"name": "Iron Ore", "status": "candidate"},
+    {"name": "Manganese", "status": "candidate"},
+    {"name": "Chromium", "status": "candidate"}
+  ],
+  "country_context": {
+    "subfamily_code": "SAEX",
+    "regional_links": ["Namibia", "Botswana", "Zimbabwe", "Mozambique", "Eswatini", "Lesotho"],
+    "special_note": "South Africa should be prioritized as a detailed continental anchor because of depth, scale, and commodity diversity."
+  },
+  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
+  "regulatory_positioning": {
+    "generic_note": "Country-specific legal and securities review is required before launch.",
+    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
+  }
+}
