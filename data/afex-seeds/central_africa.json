@@ -1,0 +1,108 @@
+{
+  "subfamily_code": "CAEX",
+  "subfamily_name": "Central Africa Export Index Family",
+  "countries": [
+    {
+      "code": "CAMEX",
+      "country": "Cameroon",
+      "iso3": "CMR",
+      "base_currency": "XAF",
+      "regional_comparison_currency": "XAF",
+      "methodology_model": "coastal_export_model",
+      "family_role": "diversified_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Cocoa Beans", "Timber", "Raw Cotton", "Coffee", "Natural Gas"],
+      "regional_links": ["Nigeria", "Chad", "Central African Republic", "Gabon", "Equatorial Guinea"],
+      "special_note": "Cameroon should combine energy, timber, and agricultural export logic."
+    },
+    {
+      "code": "CAFEX",
+      "country": "Central African Republic",
+      "iso3": "CAF",
+      "base_currency": "XAF",
+      "regional_comparison_currency": "XAF",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "minerals_and_forest_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Timber", "Gold", "Diamonds", "Raw Cotton"],
+      "regional_links": ["Cameroon", "Chad", "Sudan", "South Sudan", "Democratic Republic of the Congo", "Republic of the Congo"],
+      "special_note": "Central African Republic should be modeled with landlocked corridor logic and a strong governance-risk caution."
+    },
+    {
+      "code": "CHAEX",
+      "country": "Chad",
+      "iso3": "TCD",
+      "base_currency": "XAF",
+      "regional_comparison_currency": "XAF",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "energy_and_livestock_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Livestock", "Sesame Seeds", "Gum Arabic", "Raw Cotton"],
+      "regional_links": ["Cameroon", "Sudan", "Niger", "Nigeria", "Central African Republic"],
+      "special_note": "Chad should combine crude oil with agricultural and livestock export logic."
+    },
+    {
+      "code": "COGEX",
+      "country": "Republic of the Congo",
+      "iso3": "COG",
+      "base_currency": "XAF",
+      "regional_comparison_currency": "XAF",
+      "methodology_model": "coastal_export_model",
+      "family_role": "energy_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Timber", "Iron Ore", "Potash"],
+      "regional_links": ["Gabon", "Cameroon", "Democratic Republic of the Congo", "Central African Republic", "Angola"],
+      "special_note": "Republic of the Congo should be treated as an oil-led coastal benchmark with forest and mining secondary exposure."
+    },
+    {
+      "code": "DRCEX",
+      "country": "Democratic Republic of the Congo",
+      "iso3": "COD",
+      "base_currency": "CDF",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "minerals_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Copper", "Cobalt", "Gold", "Tin Ore", "Coltan", "Diamonds"],
+      "regional_links": ["Angola", "Zambia", "Tanzania", "Rwanda", "Burundi", "Uganda", "Republic of the Congo"],
+      "special_note": "DR Congo should prioritize mining-heavy export logic and a multi-corridor transport model."
+    },
+    {
+      "code": "EQGEX",
+      "country": "Equatorial Guinea",
+      "iso3": "GNQ",
+      "base_currency": "XAF",
+      "regional_comparison_currency": "XAF",
+      "methodology_model": "coastal_export_model",
+      "family_role": "energy_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Natural Gas", "Methanol", "Timber", "Cocoa Beans"],
+      "regional_links": ["Cameroon", "Gabon"],
+      "special_note": "Equatorial Guinea should be treated as a concentrated energy export benchmark."
+    },
+    {
+      "code": "GABEX",
+      "country": "Gabon",
+      "iso3": "GAB",
+      "base_currency": "XAF",
+      "regional_comparison_currency": "XAF",
+      "methodology_model": "coastal_export_model",
+      "family_role": "energy_and_metals_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Manganese", "Timber", "Gold"],
+      "regional_links": ["Cameroon", "Republic of the Congo", "Equatorial Guinea"],
+      "special_note": "Gabon should combine oil, manganese, and timber exposure."
+    },
+    {
+      "code": "STPEX",
+      "country": "Sao Tome and Principe",
+      "iso3": "STP",
+      "base_currency": "STN",
+      "methodology_model": "island_export_model",
+      "family_role": "island_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Cocoa Beans", "Fish and Seafood", "Palm Products"],
+      "regional_links": ["Gabon", "Equatorial Guinea", "Nigeria"],
+      "special_note": "Sao Tome and Principe should carry a small-market and concentration warning."
+    }
+  ]
+}

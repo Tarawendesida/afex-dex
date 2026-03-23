@@ -1,0 +1,138 @@
+{
+  "subfamily_code": "EAEX",
+  "subfamily_name": "East Africa Export Index Family",
+  "countries": [
+    {
+      "code": "BDIEX",
+      "country": "Burundi",
+      "iso3": "BDI",
+      "base_currency": "BIF",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "agri_and_minerals_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Coffee", "Tea", "Gold", "Nickel Ore"],
+      "regional_links": ["Rwanda", "Tanzania", "Democratic Republic of the Congo"],
+      "special_note": "Burundi should combine agriculture and mining with landlocked corridor logic."
+    },
+    {
+      "code": "COMREX",
+      "country": "Comoros",
+      "iso3": "COM",
+      "base_currency": "KMF",
+      "methodology_model": "island_export_model",
+      "family_role": "island_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Vanilla", "Cloves", "Ylang-Ylang", "Fish and Seafood"],
+      "regional_links": ["Madagascar", "Mozambique", "Tanzania"],
+      "special_note": "Comoros should be modeled as a narrow island agro-export benchmark."
+    },
+    {
+      "code": "DJIEX",
+      "country": "Djibouti",
+      "iso3": "DJI",
+      "base_currency": "DJF",
+      "methodology_model": "coastal_export_model",
+      "family_role": "trade_gateway_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Salt", "Livestock", "Fish and Seafood"],
+      "regional_links": ["Ethiopia", "Somalia", "Eritrea"],
+      "special_note": "Djibouti has a strategic trade-gateway role but a relatively small raw-material export base."
+    },
+    {
+      "code": "ERIEX",
+      "country": "Eritrea",
+      "iso3": "ERI",
+      "base_currency": "ERN",
+      "methodology_model": "coastal_export_model",
+      "family_role": "metals_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Gold", "Copper", "Zinc", "Potash", "Salt"],
+      "regional_links": ["Sudan", "Ethiopia", "Djibouti"],
+      "special_note": "Eritrea should be modeled as a smaller mining-heavy benchmark."
+    },
+    {
+      "code": "ETHEX",
+      "country": "Ethiopia",
+      "iso3": "ETH",
+      "base_currency": "ETB",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "agri_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Coffee", "Gold", "Sesame Seeds", "Oilseeds", "Livestock"],
+      "regional_links": ["Djibouti", "Somalia", "Kenya", "Sudan", "South Sudan", "Eritrea"],
+      "special_note": "Ethiopia should use landlocked corridor logic and a diversified agricultural export universe."
+    },
+    {
+      "code": "KENEX",
+      "country": "Kenya",
+      "iso3": "KEN",
+      "base_currency": "KES",
+      "methodology_model": "coastal_export_model",
+      "family_role": "diversified_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Tea", "Coffee", "Soda Ash", "Titanium Ore", "Cut Flowers"],
+      "regional_links": ["Uganda", "Tanzania", "Ethiopia", "Somalia", "South Sudan"],
+      "special_note": "Kenya should blend agricultural and mining exports while recognizing logistics-hub status."
+    },
+    {
+      "code": "RWAEX",
+      "country": "Rwanda",
+      "iso3": "RWA",
+      "base_currency": "RWF",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "minerals_and_agri_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Gold", "Tin Ore", "Tantalum", "Tungsten", "Coffee", "Tea"],
+      "regional_links": ["Uganda", "Tanzania", "Burundi", "Democratic Republic of the Congo"],
+      "special_note": "Rwanda should be treated as a landlocked corridor and specialty-metals exporter."
+    },
+    {
+      "code": "SOMEX",
+      "country": "Somalia",
+      "iso3": "SOM",
+      "base_currency": "SOS",
+      "methodology_model": "coastal_export_model",
+      "family_role": "livestock_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Livestock", "Sesame Seeds", "Frankincense", "Fish and Seafood"],
+      "regional_links": ["Kenya", "Ethiopia", "Djibouti"],
+      "special_note": "Somalia should carry a high-fragility caution while emphasizing livestock and sesame exports."
+    },
+    {
+      "code": "SSDEX",
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "base_currency": "SSP",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "energy_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Gum Arabic", "Livestock", "Sesame Seeds"],
+      "regional_links": ["Sudan", "Uganda", "Kenya", "Ethiopia"],
+      "special_note": "South Sudan should be treated as a landlocked oil exporter with elevated fragility risk."
+    },
+    {
+      "code": "TZAEX",
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "base_currency": "TZS",
+      "methodology_model": "coastal_export_model",
+      "family_role": "diversified_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Gold", "Cashew Nuts", "Coffee", "Raw Cotton", "Tobacco", "Natural Gas"],
+      "regional_links": ["Kenya", "Uganda", "Rwanda", "Burundi", "Democratic Republic of the Congo", "Mozambique"],
+      "special_note": "Tanzania should combine mining, agriculture, and gas exposure."
+    },
+    {
+      "code": "UGAEX",
+      "country": "Uganda",
+      "iso3": "UGA",
+      "base_currency": "UGX",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "agri_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Coffee", "Gold", "Raw Cotton", "Tea", "Fish and Seafood"],
+      "regional_links": ["Kenya", "Tanzania", "Rwanda", "South Sudan", "Democratic Republic of the Congo"],
+      "special_note": "Uganda should use landlocked corridor logic with coffee-led agricultural exposure."
+    }
+  ]
+}

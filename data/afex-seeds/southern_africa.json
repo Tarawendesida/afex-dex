@@ -1,0 +1,162 @@
+{
+  "subfamily_code": "SAEX",
+  "subfamily_name": "Southern Africa Export Index Family",
+  "countries": [
+    {
+      "code": "ANGEX",
+      "country": "Angola",
+      "iso3": "AGO",
+      "base_currency": "AOA",
+      "methodology_model": "coastal_export_model",
+      "family_role": "energy_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Natural Gas", "Diamonds", "Iron Ore", "Coffee"],
+      "regional_links": ["Namibia", "Democratic Republic of the Congo", "Republic of the Congo", "Zambia"],
+      "special_note": "Angola should be treated as an oil-led benchmark with diamonds as the main secondary exposure."
+    },
+    {
+      "code": "BOTEX",
+      "country": "Botswana",
+      "iso3": "BWA",
+      "base_currency": "BWP",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "diamonds_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Diamonds", "Copper", "Nickel", "Soda Ash", "Beef"],
+      "regional_links": ["South Africa", "Namibia", "Zambia", "Zimbabwe"],
+      "special_note": "Botswana should be built around diamonds and selected mining exports with a landlocked corridor model."
+    },
+    {
+      "code": "ESWEX",
+      "country": "Eswatini",
+      "iso3": "SWZ",
+      "base_currency": "SZL",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "agri_industrial_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Sugar", "Wood Pulp", "Citrus", "Coal"],
+      "regional_links": ["South Africa", "Mozambique"],
+      "special_note": "Eswatini should emphasize agro-industrial and forestry-linked exports."
+    },
+    {
+      "code": "LESEX",
+      "country": "Lesotho",
+      "iso3": "LSO",
+      "base_currency": "LSL",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "small_minerals_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Wool", "Mohair", "Diamonds"],
+      "regional_links": ["South Africa"],
+      "special_note": "Lesotho should carry a small-market caution and focus on wool, mohair, and diamonds."
+    },
+    {
+      "code": "MDGEX",
+      "country": "Madagascar",
+      "iso3": "MDG",
+      "base_currency": "MGA",
+      "methodology_model": "island_export_model",
+      "family_role": "agri_and_minerals_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Vanilla", "Nickel and Cobalt", "Cloves", "Chromium Ore", "Ilmenite"],
+      "regional_links": ["Mauritius", "Comoros", "Mozambique", "Seychelles"],
+      "special_note": "Madagascar should combine specialty agriculture with mining-heavy secondary exposure."
+    },
+    {
+      "code": "MWIEX",
+      "country": "Malawi",
+      "iso3": "MWI",
+      "base_currency": "MWK",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "agri_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Tobacco", "Tea", "Sugar", "Macadamia Nuts"],
+      "regional_links": ["Mozambique", "Zambia", "Tanzania"],
+      "special_note": "Malawi should be modeled as an agricultural export benchmark with corridor dependence."
+    },
+    {
+      "code": "MUSEX",
+      "country": "Mauritius",
+      "iso3": "MUS",
+      "base_currency": "MUR",
+      "methodology_model": "island_export_model",
+      "family_role": "island_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Sugar", "Fish and Seafood", "Molasses"],
+      "regional_links": ["Madagascar", "Seychelles"],
+      "special_note": "Mauritius has a limited raw-material base and should carry a diversification warning."
+    },
+    {
+      "code": "MOZEX",
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "base_currency": "MZN",
+      "methodology_model": "coastal_export_model",
+      "family_role": "energy_and_mining_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Coal", "Natural Gas", "Graphite", "Heavy Mineral Sands", "Aluminum"],
+      "regional_links": ["South Africa", "Eswatini", "Zimbabwe", "Zambia", "Tanzania", "Malawi"],
+      "special_note": "Mozambique should combine energy and mining exports with a regional corridor role."
+    },
+    {
+      "code": "NAMEX",
+      "country": "Namibia",
+      "iso3": "NAM",
+      "base_currency": "NAD",
+      "methodology_model": "coastal_export_model",
+      "family_role": "minerals_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Diamonds", "Uranium", "Zinc", "Copper", "Fish and Seafood"],
+      "regional_links": ["Angola", "Botswana", "South Africa", "Zambia"],
+      "special_note": "Namibia should combine mining and fisheries exposure."
+    },
+    {
+      "code": "SEYEX",
+      "country": "Seychelles",
+      "iso3": "SYC",
+      "base_currency": "SCR",
+      "methodology_model": "island_export_model",
+      "family_role": "island_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Fish and Seafood", "Tuna", "Cinnamon", "Vanilla"],
+      "regional_links": ["Mauritius", "Madagascar", "Tanzania"],
+      "special_note": "Seychelles should be modeled as a fisheries-led island benchmark."
+    },
+    {
+      "code": "ZAFEX",
+      "country": "South Africa",
+      "iso3": "ZAF",
+      "base_currency": "ZAR",
+      "methodology_model": "coastal_export_model",
+      "family_role": "continental_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Gold", "Platinum Group Metals", "Coal", "Iron Ore", "Manganese", "Chromium"],
+      "regional_links": ["Namibia", "Botswana", "Zimbabwe", "Mozambique", "Eswatini", "Lesotho"],
+      "special_note": "South Africa should be prioritized as a detailed continental anchor because of depth, scale, and commodity diversity."
+    },
+    {
+      "code": "ZMBEX",
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "base_currency": "ZMW",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "copper_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Copper", "Cobalt", "Emeralds", "Sugar"],
+      "regional_links": ["Democratic Republic of the Congo", "Angola", "Namibia", "Botswana", "Zimbabwe", "Mozambique", "Tanzania", "Malawi"],
+      "special_note": "Zambia should be built around copper and cobalt with a corridor-dependent export model."
+    },
+    {
+      "code": "ZIMEX",
+      "country": "Zimbabwe",
+      "iso3": "ZWE",
+      "base_currency": "ZWG",
+      "methodology_model": "landlocked_corridor_model",
+      "family_role": "minerals_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Gold", "Platinum", "Lithium", "Tobacco", "Nickel"],
+      "regional_links": ["South Africa", "Botswana", "Zambia", "Mozambique"],
+      "special_note": "Zimbabwe should blend mining and agricultural export logic and may require extra currency-governance review."
+    }
+  ]
+}

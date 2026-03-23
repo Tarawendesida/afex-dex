@@ -1,0 +1,78 @@
+{
+  "subfamily_code": "NAEX",
+  "subfamily_name": "North Africa Export Index Family",
+  "countries": [
+    {
+      "code": "ALGEX",
+      "country": "Algeria",
+      "iso3": "DZA",
+      "base_currency": "DZD",
+      "methodology_model": "coastal_export_model",
+      "family_role": "energy_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Natural Gas", "Condensates", "Iron Ore", "Phosphates"],
+      "regional_links": ["Tunisia", "Morocco", "Libya"],
+      "special_note": "Algeria should be modeled primarily as an energy export benchmark with secondary mining exposure."
+    },
+    {
+      "code": "EGYEX",
+      "country": "Egypt",
+      "iso3": "EGY",
+      "base_currency": "EGP",
+      "methodology_model": "coastal_export_model",
+      "family_role": "diversified_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Natural Gas", "Gold", "Raw Cotton", "Phosphates"],
+      "regional_links": ["Libya", "Sudan"],
+      "special_note": "Egypt should combine energy, mining, and agricultural export logic."
+    },
+    {
+      "code": "LBYEX",
+      "country": "Libya",
+      "iso3": "LBY",
+      "base_currency": "LYD",
+      "methodology_model": "coastal_export_model",
+      "family_role": "energy_anchor_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Crude Oil", "Natural Gas", "Condensates", "Petrochemical Feedstocks"],
+      "regional_links": ["Egypt", "Tunisia", "Algeria"],
+      "special_note": "Libya should be treated as a highly concentrated energy benchmark."
+    },
+    {
+      "code": "MAREX",
+      "country": "Morocco",
+      "iso3": "MAR",
+      "base_currency": "MAD",
+      "methodology_model": "coastal_export_model",
+      "family_role": "diversified_coastal_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Phosphates", "Fish and Seafood", "Citrus", "Lead and Zinc Concentrates"],
+      "regional_links": ["Algeria", "Mauritania"],
+      "special_note": "Morocco should emphasize phosphates and fisheries while carrying a diversified-coastal profile."
+    },
+    {
+      "code": "TUNEX",
+      "country": "Tunisia",
+      "iso3": "TUN",
+      "base_currency": "TND",
+      "methodology_model": "coastal_export_model",
+      "family_role": "coastal_diversified_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Olive Oil", "Phosphates", "Crude Oil", "Dates"],
+      "regional_links": ["Algeria", "Libya"],
+      "special_note": "Tunisia should blend energy, phosphates, and agro-exports."
+    },
+    {
+      "code": "SUDEX",
+      "country": "Sudan",
+      "iso3": "SDN",
+      "base_currency": "SDG",
+      "methodology_model": "coastal_export_model",
+      "family_role": "agri_and_minerals_member",
+      "detail_level": "starter_profile",
+      "candidate_constituents": ["Gold", "Gum Arabic", "Livestock", "Sesame Seeds", "Raw Cotton"],
+      "regional_links": ["Egypt", "South Sudan", "Ethiopia", "Chad"],
+      "special_note": "Sudan should combine mining and agricultural export logic with a conflict-risk caution."
+    }
+  ]
+}
