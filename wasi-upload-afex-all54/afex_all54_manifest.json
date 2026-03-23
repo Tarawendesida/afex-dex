@@ -15,6 +15,7 @@
     {"subfamily_code": "WAEX", "subfamily_name": "West Africa Export Index Family", "country_count": 16, "country_codes": ["BENEX","BUREX","CABEX","CIREX","GMBEX","GHAEX","GUIEX","GNBEX","LIBEX","MALIEX","MRTEX","NEREX","NGAEX","SENEX","SLEX","TOGEX"]}
   ],
   "detailed_profiles": ["BUREX", "CIREX"],
-  "sovereignty_note": "This library follows the 54-sovereign-state interpretation of Africa.",
+  "sovereignty_note": "This library follows the 54-sovereign-state interpretation of Africa. The African Union has 55 member states, including the Sahrawi Arab Democratic Republic.",
+  "note": "CIREX and BUREX retain the strongest existing country packages. Many other countries remain starter profiles pending country-level trade validation.",
   "official_reference_urls": ["https://au.int/en/overview", "https://www.un.org/en/about-us/member-states#africanstates"]
 }
