@@ -5,35 +5,19 @@
   "status": "proposed_pre_launch",
   "detail_level": "starter_profile",
   "scope_definition": "54_sovereign_african_states_build",
-  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
   "fund_identity": {
     "fund_name": "TZAEX Fund",
     "short_name": "TZAEX",
     "full_name": "Tanzania Raw Export Index Fund",
-    "benchmark_name": "Tanzania Raw Export Index",
     "benchmark_ticker": "TZAEX",
-    "vehicle_stage": "concept_and_platform_profile",
     "fund_status": "not_yet_constituted",
     "target_domicile": "Tanzania",
     "iso3": "TZA",
     "base_currency": "TZS",
-    "regional_comparison_currency": "",
-    "continental_comparison_currency": "USD",
-    "asset_class": "commodity_export_economy_reference_fund",
-    "strategy_type": "rules_based_index_tracking",
-    "reference_region": "Tanzania"
+    "continental_comparison_currency": "USD"
   },
-  "fund_family": {
-    "family_code": "AFEX",
-    "subfamily_code": "EAEX",
-    "subfamily_name": "East Africa Export Index Family",
-    "family_role": "diversified_anchor_member"
-  },
-  "benchmark_methodology": {
-    "index_code": "TZAEX",
-    "methodology_model": "coastal_export_model",
-    "methodology_status": "starter_profile_needs_country_trade_validation"
-  },
+  "fund_family": {"family_code": "AFEX", "subfamily_code": "EAEX", "family_role": "diversified_anchor_member"},
+  "benchmark_methodology": {"index_code": "TZAEX", "methodology_model": "coastal_export_model", "methodology_status": "starter_profile_needs_country_trade_validation"},
   "candidate_constituent_universe": [
     {"name": "Gold", "status": "candidate"},
     {"name": "Cashew Nuts", "status": "candidate"},
@@ -47,9 +31,6 @@
     "regional_links": ["Kenya", "Uganda", "Rwanda", "Burundi", "Democratic Republic of the Congo", "Mozambique"],
     "special_note": "Tanzania should combine mining, agriculture, and gas exposure."
   },
-  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
-  "regulatory_positioning": {
-    "generic_note": "Country-specific legal and securities review is required before launch.",
-    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
-  }
+  "research_and_validation": {"validation_status": "under_research"},
+  "regulatory_positioning": {"generic_note": "Country-specific legal review required.", "microfinance_separation_note": "Fund vehicle should remain separate from any microfinance balance sheet."}
 }

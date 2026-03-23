@@ -5,35 +5,19 @@
   "status": "proposed_pre_launch",
   "detail_level": "starter_profile",
   "scope_definition": "54_sovereign_african_states_build",
-  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
   "fund_identity": {
     "fund_name": "UGAEX Fund",
     "short_name": "UGAEX",
     "full_name": "Uganda Raw Export Index Fund",
-    "benchmark_name": "Uganda Raw Export Index",
     "benchmark_ticker": "UGAEX",
-    "vehicle_stage": "concept_and_platform_profile",
     "fund_status": "not_yet_constituted",
     "target_domicile": "Uganda",
     "iso3": "UGA",
     "base_currency": "UGX",
-    "regional_comparison_currency": "",
-    "continental_comparison_currency": "USD",
-    "asset_class": "commodity_export_economy_reference_fund",
-    "strategy_type": "rules_based_index_tracking",
-    "reference_region": "Uganda"
+    "continental_comparison_currency": "USD"
   },
-  "fund_family": {
-    "family_code": "AFEX",
-    "subfamily_code": "EAEX",
-    "subfamily_name": "East Africa Export Index Family",
-    "family_role": "agri_anchor_member"
-  },
-  "benchmark_methodology": {
-    "index_code": "UGAEX",
-    "methodology_model": "landlocked_corridor_model",
-    "methodology_status": "starter_profile_needs_country_trade_validation"
-  },
+  "fund_family": {"family_code": "AFEX", "subfamily_code": "EAEX", "family_role": "agri_anchor_member"},
+  "benchmark_methodology": {"index_code": "UGAEX", "methodology_model": "landlocked_corridor_model", "methodology_status": "starter_profile_needs_country_trade_validation"},
   "candidate_constituent_universe": [
     {"name": "Coffee", "status": "candidate"},
     {"name": "Gold", "status": "candidate"},
@@ -46,9 +30,6 @@
     "regional_links": ["Kenya", "Tanzania", "Rwanda", "South Sudan", "Democratic Republic of the Congo"],
     "special_note": "Uganda should use landlocked corridor logic with coffee-led agricultural exposure."
   },
-  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
-  "regulatory_positioning": {
-    "generic_note": "Country-specific legal and securities review is required before launch.",
-    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
-  }
+  "research_and_validation": {"validation_status": "under_research"},
+  "regulatory_positioning": {"generic_note": "Country-specific legal review required.", "microfinance_separation_note": "Fund vehicle should remain separate from any microfinance balance sheet."}
 }
