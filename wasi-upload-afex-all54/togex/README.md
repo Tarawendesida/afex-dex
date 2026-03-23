@@ -1,10 +1,3 @@
 # TOGEX Upload Package
 
-This folder contains the TOGEX country package inside the AFEX all-54 sovereign-state library.
-
-## Notes
-
-- Country: Togo
-- Subfamily: WAEX
-- Detail level: starter_profile
-- Family: AFEX
+- Country: Togo | Subfamily: WAEX | Family: AFEX
