@@ -5,35 +5,19 @@
   "status": "proposed_pre_launch",
   "detail_level": "starter_profile",
   "scope_definition": "54_sovereign_african_states_build",
-  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
   "fund_identity": {
     "fund_name": "MOZEX Fund",
     "short_name": "MOZEX",
     "full_name": "Mozambique Raw Export Index Fund",
-    "benchmark_name": "Mozambique Raw Export Index",
     "benchmark_ticker": "MOZEX",
-    "vehicle_stage": "concept_and_platform_profile",
     "fund_status": "not_yet_constituted",
     "target_domicile": "Mozambique",
     "iso3": "MOZ",
     "base_currency": "MZN",
-    "regional_comparison_currency": "",
-    "continental_comparison_currency": "USD",
-    "asset_class": "commodity_export_economy_reference_fund",
-    "strategy_type": "rules_based_index_tracking",
-    "reference_region": "Mozambique"
+    "continental_comparison_currency": "USD"
   },
-  "fund_family": {
-    "family_code": "AFEX",
-    "subfamily_code": "SAEX",
-    "subfamily_name": "Southern Africa Export Index Family",
-    "family_role": "energy_and_mining_member"
-  },
-  "benchmark_methodology": {
-    "index_code": "MOZEX",
-    "methodology_model": "coastal_export_model",
-    "methodology_status": "starter_profile_needs_country_trade_validation"
-  },
+  "fund_family": {"family_code": "AFEX", "subfamily_code": "SAEX", "family_role": "energy_and_mining_member"},
+  "benchmark_methodology": {"index_code": "MOZEX", "methodology_model": "coastal_export_model", "methodology_status": "starter_profile_needs_country_trade_validation"},
   "candidate_constituent_universe": [
     {"name": "Coal", "status": "candidate"},
     {"name": "Natural Gas", "status": "candidate"},
@@ -46,9 +30,6 @@
     "regional_links": ["South Africa", "Eswatini", "Zimbabwe", "Zambia", "Tanzania", "Malawi"],
     "special_note": "Mozambique should combine energy and mining exports with a regional corridor role."
   },
-  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
-  "regulatory_positioning": {
-    "generic_note": "Country-specific legal and securities review is required before launch.",
-    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
-  }
+  "research_and_validation": {"validation_status": "under_research"},
+  "regulatory_positioning": {"generic_note": "Country-specific legal review required.", "microfinance_separation_note": "Fund vehicle should remain separate from any microfinance balance sheet."}
 }

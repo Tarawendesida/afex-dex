@@ -5,35 +5,19 @@
   "status": "proposed_pre_launch",
   "detail_level": "starter_profile",
   "scope_definition": "54_sovereign_african_states_build",
-  "platform_note": "Prepared as a generic structured upload package for a 54-country Africa buildout.",
   "fund_identity": {
     "fund_name": "ANGEX Fund",
     "short_name": "ANGEX",
     "full_name": "Angola Raw Export Index Fund",
-    "benchmark_name": "Angola Raw Export Index",
     "benchmark_ticker": "ANGEX",
-    "vehicle_stage": "concept_and_platform_profile",
     "fund_status": "not_yet_constituted",
     "target_domicile": "Angola",
     "iso3": "AGO",
     "base_currency": "AOA",
-    "regional_comparison_currency": "",
-    "continental_comparison_currency": "USD",
-    "asset_class": "commodity_export_economy_reference_fund",
-    "strategy_type": "rules_based_index_tracking",
-    "reference_region": "Angola"
+    "continental_comparison_currency": "USD"
   },
-  "fund_family": {
-    "family_code": "AFEX",
-    "subfamily_code": "SAEX",
-    "subfamily_name": "Southern Africa Export Index Family",
-    "family_role": "energy_anchor_member"
-  },
-  "benchmark_methodology": {
-    "index_code": "ANGEX",
-    "methodology_model": "coastal_export_model",
-    "methodology_status": "starter_profile_needs_country_trade_validation"
-  },
+  "fund_family": {"family_code": "AFEX", "subfamily_code": "SAEX", "family_role": "energy_anchor_member"},
+  "benchmark_methodology": {"index_code": "ANGEX", "methodology_model": "coastal_export_model", "methodology_status": "starter_profile_needs_country_trade_validation"},
   "candidate_constituent_universe": [
     {"name": "Crude Oil", "status": "candidate"},
     {"name": "Natural Gas", "status": "candidate"},
@@ -46,9 +30,6 @@
     "regional_links": ["Namibia", "Democratic Republic of the Congo", "Republic of the Congo", "Zambia"],
     "special_note": "Angola should be treated as an oil-led benchmark with diamonds as the main secondary exposure."
   },
-  "research_and_validation": {"validation_status": "under_research", "preferred_existing_package": ""},
-  "regulatory_positioning": {
-    "generic_note": "Country-specific legal and securities review is required before launch.",
-    "microfinance_separation_note": "The fund vehicle should remain separate from any microfinance balance sheet."
-  }
+  "research_and_validation": {"validation_status": "under_research"},
+  "regulatory_positioning": {"generic_note": "Country-specific legal review required.", "microfinance_separation_note": "Fund vehicle should remain separate from any microfinance balance sheet."}
 }
